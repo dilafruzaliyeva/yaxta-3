@@ -5,9 +5,11 @@
 }
 
 header{
-    position: relative;
+    z-index: 5;
+    position: fixed;
     max-width: 100%;
     background-color: #012146;
+    width: 100%;
 }
 
 .container-grid{
@@ -81,7 +83,7 @@ header{
     background: #012146;
     top: 0;
     left: 0;
-    padding: 140px 0 0 115px;
+    padding: 140px 0 0 60px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -89,10 +91,10 @@ header{
     overflow: hidden;
     transition: 0.5s width;
 }
-
-/* .sidebar:hover{
+ 
+.sidebar:hover{
     width: 380px;
-} */
+} 
 
 .sidebar h1{
     font-size: 32px;
